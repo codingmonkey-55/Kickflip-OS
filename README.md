@@ -4,8 +4,3 @@ Kickflip OS is a fast, creative, skater-inspired operating system designed to ma
 
 
 
-install command
-
-git clone https://github.com/codingmonkey-55/Kickflip-OS.git && \
-cd Kickflip-OS && \
-sudo bash kickflip-os-installer-filesystem\ \(2\)/kickflip-os-installer/install.sh
