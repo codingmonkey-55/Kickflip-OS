@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Kickflip OS Installer
+Comment=Install Kickflip OS
+Exec=pkexec kickflip-installer
+Terminal=false
+Type=Application
+Categories=System;

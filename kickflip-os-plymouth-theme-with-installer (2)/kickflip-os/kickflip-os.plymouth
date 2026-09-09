@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Kickflip OS
+Description=Kickflip OS neon skate boot splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/kickflip-os
+ScriptFile=/usr/share/plymouth/themes/kickflip-os/kickflip-os.script

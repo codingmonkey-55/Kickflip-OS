@@ -1,0 +1,45 @@
+# Kickflip OS GRUB 2 theme
+# 1536x1024 artwork with a functional GRUB menu.
+
+desktop-image: "background.png"
+
+# Main GRUB menu, aligned with the neon framed box in the artwork.
++ boot_menu {
+    left = 148
+    top = 475
+    width = 680
+    height = 285
+
+    item_font = "DejaVu Sans Mono 18"
+    item_color = "#D8D8D8"
+    selected_item_color = "#000000"
+
+    item_height = 42
+    item_padding = 8
+    item_spacing = 0
+
+    selected_item_pixmap_style = "select.png"
+
+    scrollbar = false
+}
+
+# Instructions printed at the bottom of the menu panel.
++ label {
+    left = 148
+    top = 707
+    width = 680
+    height = 28
+    text = "Use the ↑ and ↓ keys to select."
+    color = "#00BFFF"
+    font = "DejaVu Sans Mono 16"
+}
+
++ label {
+    left = 148
+    top = 739
+    width = 680
+    height = 28
+    text = "Press Enter to boot the selected OS."
+    color = "#00BFFF"
+    font = "DejaVu Sans Mono 16"
+}
